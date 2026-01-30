@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "app.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/v1/$1" }
+  ],
+  "env": {
+    "MONGO_URL": "mongodb+srv://Root:root@cluster0.z7ub6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  }
+}
