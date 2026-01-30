@@ -1,4 +1,4 @@
-Expense Tracker
+TrackMySpend
 ---
 An easy-to-use web application for tracking your expenses and managing your budget effectively. Built using Node.js, Express, and MongoDB for the backend, and React for the frontend.
 
@@ -32,8 +32,8 @@ An easy-to-use web application for tracking your expenses and managing your budg
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/expense-tracker.git
-   cd expense-tracker
+   git clone https://github.com/yourusername/TrackMySpend.git
+   cd TrackMySpend
    ```
 
 2. Navigate to the backend directory and install dependencies:
